@@ -1,0 +1,65 @@
+
+
+
+
+
+
+include<iostream>
+#include<string>
+using namespace std;
+
+main()
+{
+	//declaring var
+	string name;
+	int num1, i;
+	
+    //ask for the users input
+	cout<<"Now enter number-> ";
+	cin>>num1;
+	
+	
+	//writing the multiplication table to the screen
+	for(i=0;i<=num1;i++)
+	{
+		cout<<endl<<""<<i-num1/1;
+	
+	}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
