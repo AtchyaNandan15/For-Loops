@@ -4,19 +4,29 @@ using namespace std;
 
 main()
 {
-	//declaring var
-	int, a,b,c;
-	
-	//get info from user
-	cout<<" Enter three numbers ";
-	cin>>a,b,c;
-	
+    //variable declaration
+	int a; //first number
+	int b; //the second number
+	int c; //the third number
+	int i;
 
-	
-	//writing the multiplication table to the screen
-	for(i=1;i<=9;i++)
-	{
-		cout<<endl<<9<<" x "<<i<<" = "<<i*9;
+//The first number is the starting value of a multiplication table, the second number is the ending value.  
+//The third number is the number you are multiplying.
+
+	//get info from user
+	cout<<" Enter three numbers: ";
+	cin>>a;
+	cin>>b;
+	cin>>c;
+	cout<<" Staring value of a multiplication table =  "<<a<< "\n";
+	cout<<" Ending value of a multiplication table  =  "<<b<< "\n";
+	cout<<" your multiplying number                 =  "<<c<< "\n";
+
+
+	for (i=a;i<=b;i++) {
+	    
+	    cout<<endl<<i<<" x "<<c<<" = "<<i*c;
+
 	}
 	
 	
