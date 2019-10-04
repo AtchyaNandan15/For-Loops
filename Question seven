@@ -15,18 +15,18 @@ int main()
     int x1; //starting value
     int x2; //ending value
     int m; //the m value
-    int y; //the y value
+    int b; //the b value( y intercept)
     int i;
     
     cout<<" Enter a starting value, ending value, m value and b value. ";
     cin>> x1; 
     cin>> x2;
     cin>> m;
-    cin>> y;
+    cin>> b;
     
 
-for (i=1;i<=1;i++){
-    cout<<"  "<<x1;
+for (i=x1;i<=x2;i++){
+    cout<<" y \n"<<m*i + b;
 }
 
 
