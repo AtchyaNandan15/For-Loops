@@ -9,28 +9,24 @@ main()
 	int f;
 	int c;
 	
-	cout<<"Numbers in farhenite\n";
+	cout<<"Fahrenheit to celsius\n";
+	cout<<"^^^^^^^^^^^^^^^^^^^^^\n";
+	cout<<"Temperature in Fahrenheit\t| Temperature in Celsius\n";
+	cout<<"-------------------------------------------------------\n";
+
+
 	for(f=-40;f<101; f+=5)
 	{
 	
-		cout<<f<<",\t";
-		cout<<c<<",\t";
+		//c = ( (f − 32) * ( 5/9)) ;
+		c= ((f-32) * (5) ) / 9;
 	
+	cout<< "\t" <<f<<"\t                |          "<<c<<"\n";
+
 	}
 	
-	/*int c;
-	cout<<"Numbers in Celsius\n";
-	for(c=-40;c<101; c+=5)
-	
-{
-    
-    
-    cout<< c- 32*5/0; ",\t";
-}
 
-    */
-    
-    
+
     
 
 }
