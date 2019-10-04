@@ -1,0 +1,33 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x1; //starting value
+    int x2; //ending value
+    int m; //the m value
+    int y; //the y value
+    int i;
+    
+    cout<<" Enter a starting value, ending value, m value and b value. ";
+    cin>> x1; 
+    cin>> x2;
+    cin>> m;
+    cin>> y;
+    
+
+for (i=1;i<=1;i++){
+    cout<<"  "<<x1;
+}
+
+
+}
