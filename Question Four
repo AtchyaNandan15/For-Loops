@@ -1,0 +1,24 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+main()
+{
+	//declaring var
+	string name;
+	int num, i;
+	
+	//get info from user
+	cout<<"Nine timetable";
+	
+
+	
+	//writing the multiplication table to the screen
+	for(i=1;i<=9;i++)
+	{
+		cout<<endl<<9<<" x "<<i<<" = "<<i*9;
+	}
+	
+	
+	
+}
