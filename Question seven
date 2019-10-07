@@ -34,7 +34,52 @@ main()
 	for (i=x_start;i<=x_end;i++) {
 	    
 	    cout<<endl<<i<<"   |  "<<(m*i+b)<< "  |";
+	    #include<iostream>
+#include<string>
+using namespace std;
+
+main()
+{
+    //variable declaration
+	int x_start; //
+	int x_end; //
+	int m; //slope
+	int b; //y=intercept
+	int i;
+
+//The first number is the starting value of a multiplication table, the second number is the ending value.  
+//The third number is the number you are multiplying.
+
+	//get info from user
+	cout<<" Enter start, end value for x coordinate,slope and y-intercept: ";
+	cin>>x_start;
+	cin>>x_end;
+	cin>>m;
+	cin>>b;
+	cout<<" start of x value   =  "<<x_start<< "\n";
+	cout<<" end of x value     =  "<<x_end<< "\n";
+	cout<<" slope              =  "<<m<< "\n";
+	cout<<" y-intercept(or b)  =  "<<b<< "\n";
+
+        cout<<"__________\n";
+        cout<<" x " "|"  " y    |\n";
+        //cout<<"                 |\n";
+        cout<<"___|______|";
+
+
+	for (i=x_start;i<=x_end;i++) {
 	    
+	    cout<<endl<<i<<"   |  "<<(m*i+b)<< "  |";
+	    
+
+	}
+	//add two more loops and then multiply for the question and answer for question six
+	
+	
+	
+}
+
+
  
 	}
 	
