@@ -1,0 +1,35 @@
+
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+main()
+{
+    //variable declaration
+	int num1;
+	int i;
+
+	//get info from user
+	cout<<" Enter a number ";
+	cin>>num1;
+
+
+
+	for (i=1;i<=1;i++) {
+	    
+	   cout<<" a) " <<num1 + 1 + 2 + 3 + 4 + 5<<"";
+	   cout<<" b) " << 3 + 7 + 11 + 15 + 4 * num1 + 1<<"";
+	   cout<<" c) " << 1 + 2 + 4 + 8 + 16 + 2 * num1 - 1<< "";
+	    
+
+	}
+}
+	//add two more loops and then multiply for the question and answer for question six
+	
+	
+	
+
+
+
+
