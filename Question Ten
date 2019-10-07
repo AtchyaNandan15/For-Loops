@@ -88,6 +88,126 @@ int main()
  
  */
  
+ // make a sin under the if statemet question eight
+ 
     
     
 }
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ 
+    int r; //number of rows
+    int i;
+    
+    //asks the user for the number
+    cout<<" Enter a number  ";
+    cin>> r; 
+    
+    
+    for (i=0; i<r; i++){
+        
+    for (i=0;i<r; i++){
+     cout<<"*\t";
+    }
+    
+    for (i=0; i<r; i++) {
+        cout << "*\t";
+    }
+    
+  }
+}
+  
+   /* if ( r == 2 ) {
+  for (i=0;i<r;i++) {
+     cout<<" *********\n ";
+     
+ }
+  }
+ 
+  if ( r ==3 ) {
+  for (i=0;i<r;i++) {
+     cout<<" ********\n ";
+     
+ }
+  }
+ 
+ 
+  if (r==4) {
+  for (i=0;i<r;i++) {
+     cout<<" *******\n ";
+     
+ }
+  }
+ 
+ 
+ if ( r==5 ) {
+  for (i=0;i<r;i++) {
+     cout<<" ******\n ";
+     
+ }
+  }
+ 
+ 
+  if ( r==6 ) {
+  for (i=0;i<r;i++) {
+     cout<<" *****\n ";
+     
+ }
+  }
+ 
+ if ( r==7 ) {
+  for (i=0;i<r;i++) {
+     cout<<" ****\n ";
+     
+ }
+  }
+ 
+  if ( r==8 ) {
+  for (i=0;i<r;i++) {
+     cout<<" ***\n ";
+     
+ }
+  }
+ 
+ 
+  if ( r==9 ) {
+  for (i=0;i<r;i++) {
+     cout<<" **\n";
+     
+ }
+  }
+ 
+ 
+  if ( r==10 ) {
+  for (i=0;i<r;i++) {
+     cout<<" * ";
+     
+ }
+  }
+  
+  */
+ 
+ 
+ 
+    
+    
+
+
