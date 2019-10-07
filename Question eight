@@ -18,25 +18,20 @@ int main()
   cout<<" Enter a number between 1 to 10 ";
   cin>> num1;
   
-  for (num1=0;num1<=3;num1++)
+  for (num1=0;num1<=6;num1++) {
   
-  if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
+
+  
+   if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
       cout<<" try again ";
+      cin>>num1; 
+   }
+      
+    else if (num1 == 6) {
+      cout<<" Congratualation "; 
+        
+    }
+    
   }
-  
-  cout<<" Enter a number between 1 to 10 ";
-  cin>> num1;
-    if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
-      cout<<" try again ";
-  }
-  
-    cout<<" Enter a number between 1 to 10 ";
-  cin>> num1;
-    if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
-      cout<<" Wrong ";
-  }
-  
-  else if (num1 == 6){
-      cout<<" Congratualation ";
-  }
+ 
 }
