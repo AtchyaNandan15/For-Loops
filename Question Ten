@@ -12,6 +12,8 @@ using namespace std;
 
 int main()
 {
+    // create if statements then add a for loop under so the number of rows will got in the for loops as num1 instead of incrementing it by one
+   //pu the num1 fromm the user instead of i++
     
     int r; //number of rows
     
@@ -20,13 +22,14 @@ int main()
     
     int i;
     
-    for (i=1;i<=1;i++)
+    for (i=0;i=r; i++)
     
     {
      cout<<" **********\n";
     }
 
- for (i=1;i<=1;i++) {
+  
+  /* for (i=1;i<=1;i++) {
      cout<<" *********\n ";
      
  }
@@ -83,6 +86,7 @@ int main()
      
  }
  
+ */
  
     
     
