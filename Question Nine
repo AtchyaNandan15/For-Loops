@@ -12,7 +12,7 @@ using namespace std;
 
 int main()
 {
-  float num1;
+  int num1;
   int i;
   
   
@@ -20,27 +20,28 @@ int main()
   cout<<" Enter a number ";
   cin>> num1;
   
-  if (num1 == 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10){  
-   cout<<" This is positive ";
+  if ((num1 == 2) || ( num1 == 4 )|| ( num1 == 6 ) || ( num1 == 8 ) || ( num1 == 10)) {  
+   cout<<" This is positive and even ";
    
   }
-  
- else if (num1 == 2 || 4 || 6 || 8 || 10) {
-      cout<<" This is even ";
+
+  else if   ( (num1 == -2) || (num1 == -4 ) || (num1 == -6) || (num1 == -8) || ( num1 == -10) ) {
+      cout<<" This is negative and even ";
   }
   
-  else if (num1 == 1|| 3 || 5 || 7 || 9) {
-      cout<< " this is odd ";
+  else if ((num1 == 1) || ( num1 == 3 ) || (num1 = 5) || (num1 = 7) || ( num1 == 9)) {
+      cout<< " this is odd and positive ";
   }
   
-  else if (num1== -1 ||-2 || -3 || -4 || -5 || -6 || -7 || -8 || -9 || -10 ) {
-    cout<<"This is Negative  ";
+  else if ( (num1== -1 ) || ( num1 == -3 ) || ( num1 == -5 ) || ( num1 == -7 ) || (num1 == -9 ) ) {
+    cout<<"This is Negative and odd  ";
   }
   
-  else if ( num1 != 0) {
+  else if ( num1 == 0) {
       cout<< " This is invalid ";
   }
-  for ( i=0; i<=10; i++)
+  
+  for ( i=1; i<=10; i++)
   cout<<" " <<num1<< " \t\n";
   
   
