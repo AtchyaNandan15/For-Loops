@@ -1,0 +1,42 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int x;
+  int num1;
+  
+  cout<<" Enter a number between 1 to 10 ";
+  cin>> num1;
+  
+  for (num1=0;num1<=3;num1++)
+  
+  if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
+      cout<<" try again ";
+  }
+  
+  cout<<" Enter a number between 1 to 10 ";
+  cin>> num1;
+    if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
+      cout<<" try again ";
+  }
+  
+    cout<<" Enter a number between 1 to 10 ";
+  cin>> num1;
+    if ( num1 == 1 || 2 || 3 || 4 || 5 || 7 || 8 || 9 || 10) {
+      cout<<" Wrong ";
+  }
+  
+  else if (num1 == 6){
+      cout<<" Congratualation ";
+  }
+}
