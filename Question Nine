@@ -14,35 +14,43 @@ int main()
 {
   int num1;
   int i;
+  int a;
   
   
   
-  cout<<" Enter a number ";
+  cout<<" Enter a number:  ";
   cin>> num1;
-  
-  if ((num1 == 2) || ( num1 == 4 )|| ( num1 == 6 ) || ( num1 == 8 ) || ( num1 == 10)) {  
-   cout<<" This is positive and even ";
-   
-  }
+  //cout<<"num1 is " <<num1<<"\n";
+  a=(num1)%2;
 
-  else if   ( (num1 == -2) || (num1 == -4 ) || (num1 == -6) || (num1 == -8) || ( num1 == -10) ) {
-      cout<<" This is negative and even ";
-  }
-  
-  else if ((num1 == 1) || ( num1 == 3 ) || (num1 = 5) || (num1 = 7) || ( num1 == 9)) {
-      cout<< " this is odd and positive ";
-  }
-  
-  else if ( (num1== -1 ) || ( num1 == -3 ) || ( num1 == -5 ) || ( num1 == -7 ) || (num1 == -9 ) ) {
-    cout<<"This is Negative and odd  ";
-  }
-  
-  else if ( num1 == 0) {
-      cout<< " This is invalid ";
-  }
-  
+  if ((a == 0)  && (num1 > 0)) 
+    {  
+   cout<<" This is a positive even number!\n"; 
+    }
+  else if ((a ==1) && (num1 > 0)) 
+    {
+      cout<<" This is a positive odd number!\n";
+    }
+    
+  else if ( (num1 < 0)  && (a == 0) )
+    {
+           cout<<" This is a negative even number!\n"; 
+    }
+  else if ( (num1 < 0) && (a == -1) ) 
+    {
+        cout<<" This is a negative odd number!\n"; 
+
+    }
+  else if (num1 == 0) 
+    {
+        cout<<"Not a valid entry!!! ";
+        
+    }
+ 
+
   for ( i=1; i<=10; i++)
-  cout<<" " <<num1<< " \t\n";
+  cout<<" "<<num1<< "\t\n";
   
+ 
   
  }
