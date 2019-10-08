@@ -1,5 +1,14 @@
 
-
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date September October 8nd 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn for loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int f................................ the counter
+*                   int c ........... the counter with other things added
+* 
+********************************************************************************************************************/
 #include<iostream>
 #include<string>
 using namespace std;
