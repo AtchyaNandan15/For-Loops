@@ -1,3 +1,16 @@
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date September October 8nd 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn for loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int i................................ the counter
+*                   int num1...........the users inputs a number
+*                    char name..................the user inputs a name
+* 
+********************************************************************************************************************/
+
+
 #include<iostream>
 #include<string>
 using namespace std;
