@@ -1,4 +1,19 @@
-
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date September October 8nd 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn for loops                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int num1.................. the user eneters a number
+                    int i................................ the counter
+*                   int total_a=0;.................the sum for a)
+	            int total_b=0;..................the sum for b)
+	            int total_c=0;...........the users inputs a number
+		    int f1.............. the number to create the sum
+		    int f2.................. the number to create the sum
+		   
+* 
+********************************************************************************************************************/
 
 #include<iostream>
 #include<string>
@@ -44,10 +59,7 @@ main()
      cout<< " c) sum of " <<num1<< " for equation is equal to "<<total_c;
 
 
-	//add two more loops and then multiply for the question and answer for question six
-	
-	//cout<<" a) sum of first " <<num1 <<" is equal to "<<total_a;
-	//cout<< " b) sum of second " <<num1<< " is equal to "<<total_b;
+
 	
 }
 	
