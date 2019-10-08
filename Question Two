@@ -1,6 +1,15 @@
-
-
-
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date September October 2nd 2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Assingment                                                        
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int random_number, rands_number, randa_number................................generates a random number the user.
+*                   int num1,num2,num3,num4,num5,num6.....the numbers on each dice
+*                   int random_numbersum...........the total of random_number, rands_number, randa_number
+*                   char name...........the users input for the name
+* 
+********************************************************************************************************************/
 
 
 
