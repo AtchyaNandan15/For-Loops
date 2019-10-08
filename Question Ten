@@ -1,213 +1,26 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
-#include <iostream>
-
+#include<iostream>
+#include<string>
 using namespace std;
 
-int main()
+main()
 {
-    // create if statements then add a for loop under so the number of rows will got in the for loops as num1 instead of incrementing it by one
-   //pu the num1 fromm the user instead of i++
-    
-    int r; //number of rows
-    
-    cout<<" Enter a number ";
-    cin>> r; 
-    
-    int i;
-    
-    for (i=0;i=r; i++)
-    
-    {
-     cout<<" **********\n";
+    //variable declaration
+	int num; 
+	int i,j;
+
+
+	//get info from user
+	cout<<" Enter a number: ";
+	cin>>num;
+      
+
+	for (i=1;i<=num;num--) {
+        for(j=1;j<=num-1;j++) {
+            cout<<"*";
+	    }
+	    cout<<"*\n";
     }
-
-  
-  /* for (i=1;i<=1;i++) {
-     cout<<" *********\n ";
-     
- }
- 
-  for (i=1;i<=1;i++) {
-     cout<<" ********\n ";
-     
- }
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" *******\n ";
-     
- }
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" ******\n ";
-     
- }
- 
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" *****\n ";
-     
- }
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" ****\n ";
-     
- }
- 
-
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" ***\n ";
-     
- }
- 
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" **\n";
-     
- }
- 
- 
- 
-  for (i=1;i<=1;i++) {
-     cout<<" * ";
-     
- }
- 
- */
- 
- // make a sin under the if statemet question eight
- 
-    
-    
+	
+	
 }
-
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
-
-
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
- 
-    int r; //number of rows
-    int i;
-    
-    //asks the user for the number
-    cout<<" Enter a number  ";
-    cin>> r; 
-    
-    
-    for (i=0; i<r; i++){
-        
-    for (i=0;i<r; i++){
-     cout<<"*\t";
-    }
-    
-    for (i=0; i<r; i++) {
-        cout << "*\t";
-    }
-    
-  }
-}
-  
-   /* if ( r == 2 ) {
-  for (i=0;i<r;i++) {
-     cout<<" *********\n ";
-     
- }
-  }
- 
-  if ( r ==3 ) {
-  for (i=0;i<r;i++) {
-     cout<<" ********\n ";
-     
- }
-  }
- 
- 
-  if (r==4) {
-  for (i=0;i<r;i++) {
-     cout<<" *******\n ";
-     
- }
-  }
- 
- 
- if ( r==5 ) {
-  for (i=0;i<r;i++) {
-     cout<<" ******\n ";
-     
- }
-  }
- 
- 
-  if ( r==6 ) {
-  for (i=0;i<r;i++) {
-     cout<<" *****\n ";
-     
- }
-  }
- 
- if ( r==7 ) {
-  for (i=0;i<r;i++) {
-     cout<<" ****\n ";
-     
- }
-  }
- 
-  if ( r==8 ) {
-  for (i=0;i<r;i++) {
-     cout<<" ***\n ";
-     
- }
-  }
- 
- 
-  if ( r==9 ) {
-  for (i=0;i<r;i++) {
-     cout<<" **\n";
-     
- }
-  }
- 
- 
-  if ( r==10 ) {
-  for (i=0;i<r;i++) {
-     cout<<" * ";
-     
- }
-  }
-  
-  */
- 
- 
- 
-    
-    
-
 
